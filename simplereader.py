@@ -28,7 +28,7 @@ class simpleReader():
                     print(ord(readingData)) #convert Unicode character to integer Unicode code
             except:
                 print("error getting data")
-                pass
+                break
 
 linuxPort = "/dev/ttyUSB0"
 windowsPort = "COM5"
